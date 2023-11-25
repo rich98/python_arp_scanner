@@ -3,6 +3,8 @@ My First network scanner in python
 
 To run on Linux you need to use sudo 
 
+Test out put from CSI Linux from a Class network
+
 8:30:45 csi@csi ~/Downloads
 ❯ sudo python3 net_check.py 
 Scan Complete
