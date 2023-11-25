@@ -1,3 +1,6 @@
+# My First Arp scanner in python v1
+# Using scapy
+
 from scapy.all import ARP, Ether, srp
 
 def discover_devices(ip_range):
@@ -15,8 +18,9 @@ def discover_devices(ip_range):
     return devices
 
 def print_results(devices):
+    print("Scan Complete")
     print("IP Address\tMAC Address")
-    print("-----------------------------------------")
+    print("****************************************-")
     for device in devices:
         print(f"{device['ip']}\t{device['mac']}")
 
